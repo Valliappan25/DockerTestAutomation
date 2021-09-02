@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FlightModule" duration-ms="18217" started-at="2021-08-26T06:26:24 GMT" finished-at="2021-08-26T06:26:42 GMT">
+    <groups>
+    </groups>
+    <test name="Book-Flight-2" duration-ms="15883" started-at="2021-08-26T06:26:24 GMT" finished-at="2021-08-26T06:26:40 GMT">
+      <class name="com.testing.Tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.testing.Tests.BookFlightTest@51efea79]" name="setUpDriver" is-config="true" duration-ms="4034" started-at="2021-08-26T06:26:24 GMT" finished-at="2021-08-26T06:26:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="registrationPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.Tests.BookFlightTest@51efea79]" name="registrationPage" duration-ms="3843" started-at="2021-08-26T06:26:28 GMT" finished-at="2021-08-26T06:26:32 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Valliappan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramanathan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8122442501]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mani02@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11/1 AVPL Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Karaikudi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[630001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BRAZIL]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[valliappan]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[11/1 AVPL Street]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[N.Pudur]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Karaikudi]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[TamilNadu]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[630001]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method status="PASS" signature="registrationConfirmationPage()[pri:0, instance:com.testing.Tests.BookFlightTest@51efea79]" name="registrationConfirmationPage" duration-ms="200" started-at="2021-08-26T06:26:32 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.registrationPage" finished-at="2021-08-26T06:26:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method status="PASS" signature="flightDetailsPage()[pri:0, instance:com.testing.Tests.BookFlightTest@51efea79]" name="flightDetailsPage" duration-ms="4839" started-at="2021-08-26T06:26:32 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.registrationConfirmationPage" finished-at="2021-08-26T06:26:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method status="PASS" signature="findFlightPage()[pri:0, instance:com.testing.Tests.BookFlightTest@51efea79]" name="findFlightPage" duration-ms="1570" started-at="2021-08-26T06:26:37 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.flightDetailsPage" finished-at="2021-08-26T06:26:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightPage -->
+        <test-method status="PASS" signature="flightConfirmationPage()[pri:0, instance:com.testing.Tests.BookFlightTest@51efea79]" name="flightConfirmationPage" duration-ms="626" started-at="2021-08-26T06:26:38 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.findFlightPage" finished-at="2021-08-26T06:26:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testing.Tests.BookFlightTest@51efea79]" name="quitBrowser" is-config="true" duration-ms="754" started-at="2021-08-26T06:26:39 GMT" finished-at="2021-08-26T06:26:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.testing.Tests.BookFlightTest -->
+    </test> <!-- Book-Flight-2 -->
+    <test name="Book-Flight-4" duration-ms="17496" started-at="2021-08-26T06:26:24 GMT" finished-at="2021-08-26T06:26:41 GMT">
+      <class name="com.testing.Tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.testing.Tests.BookFlightTest@cb5822]" name="setUpDriver" is-config="true" duration-ms="4117" started-at="2021-08-26T06:26:24 GMT" finished-at="2021-08-26T06:26:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="registrationPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.Tests.BookFlightTest@cb5822]" name="registrationPage" duration-ms="5601" started-at="2021-08-26T06:26:28 GMT" finished-at="2021-08-26T06:26:34 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Valliappan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramanathan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8122442501]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mani02@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11/1 AVPL Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Karaikudi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[630001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BRAZIL]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[valliappan]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[First]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[11/1 AVPL Street]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[N.Pudur]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Karaikudi]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[TamilNadu]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[630001]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method status="PASS" signature="registrationConfirmationPage()[pri:0, instance:com.testing.Tests.BookFlightTest@cb5822]" name="registrationConfirmationPage" duration-ms="191" started-at="2021-08-26T06:26:34 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.registrationPage" finished-at="2021-08-26T06:26:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method status="PASS" signature="flightDetailsPage()[pri:0, instance:com.testing.Tests.BookFlightTest@cb5822]" name="flightDetailsPage" duration-ms="4545" started-at="2021-08-26T06:26:34 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.registrationConfirmationPage" finished-at="2021-08-26T06:26:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method status="PASS" signature="findFlightPage()[pri:0, instance:com.testing.Tests.BookFlightTest@cb5822]" name="findFlightPage" duration-ms="1719" started-at="2021-08-26T06:26:38 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.flightDetailsPage" finished-at="2021-08-26T06:26:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightPage -->
+        <test-method status="PASS" signature="flightConfirmationPage()[pri:0, instance:com.testing.Tests.BookFlightTest@cb5822]" name="flightConfirmationPage" duration-ms="432" started-at="2021-08-26T06:26:40 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.findFlightPage" finished-at="2021-08-26T06:26:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testing.Tests.BookFlightTest@cb5822]" name="quitBrowser" is-config="true" duration-ms="880" started-at="2021-08-26T06:26:41 GMT" finished-at="2021-08-26T06:26:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.testing.Tests.BookFlightTest -->
+    </test> <!-- Book-Flight-4 -->
+    <test name="Book-Flight-3" duration-ms="18217" started-at="2021-08-26T06:26:24 GMT" finished-at="2021-08-26T06:26:42 GMT">
+      <class name="com.testing.Tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.testing.Tests.BookFlightTest@14acaea5]" name="setUpDriver" is-config="true" duration-ms="3974" started-at="2021-08-26T06:26:24 GMT" finished-at="2021-08-26T06:26:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="registrationPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.Tests.BookFlightTest@14acaea5]" name="registrationPage" duration-ms="6535" started-at="2021-08-26T06:26:28 GMT" finished-at="2021-08-26T06:26:35 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Valliappan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramanathan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8122442501]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mani02@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11/1 AVPL Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Karaikudi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tamilnadu]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[630001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BRAZIL]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[valliappan]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[11/1 AVPL Street]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[N.Pudur]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Karaikudi]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[TamilNadu]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[630001]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method status="PASS" signature="registrationConfirmationPage()[pri:0, instance:com.testing.Tests.BookFlightTest@14acaea5]" name="registrationConfirmationPage" duration-ms="217" started-at="2021-08-26T06:26:35 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.registrationPage" finished-at="2021-08-26T06:26:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method status="PASS" signature="flightDetailsPage()[pri:0, instance:com.testing.Tests.BookFlightTest@14acaea5]" name="flightDetailsPage" duration-ms="4704" started-at="2021-08-26T06:26:35 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.registrationConfirmationPage" finished-at="2021-08-26T06:26:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method status="PASS" signature="findFlightPage()[pri:0, instance:com.testing.Tests.BookFlightTest@14acaea5]" name="findFlightPage" duration-ms="1599" started-at="2021-08-26T06:26:39 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.flightDetailsPage" finished-at="2021-08-26T06:26:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightPage -->
+        <test-method status="PASS" signature="flightConfirmationPage()[pri:0, instance:com.testing.Tests.BookFlightTest@14acaea5]" name="flightConfirmationPage" duration-ms="395" started-at="2021-08-26T06:26:41 GMT" depends-on-methods="com.testing.Tests.BookFlightTest.findFlightPage" finished-at="2021-08-26T06:26:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testing.Tests.BookFlightTest@14acaea5]" name="quitBrowser" is-config="true" duration-ms="756" started-at="2021-08-26T06:26:41 GMT" finished-at="2021-08-26T06:26:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.testing.Tests.BookFlightTest -->
+    </test> <!-- Book-Flight-3 -->
+  </suite> <!-- FlightModule -->
+</testng-results>

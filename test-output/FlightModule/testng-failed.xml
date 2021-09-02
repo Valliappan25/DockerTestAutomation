@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [FlightModule]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Book-Flight-4(failed)">
+    <parameter name="lastName" value="Ramanathan"/>
+    <parameter name="country" value="BRAZIL"/>
+    <parameter name="city" value="Karaikudi"/>
+    <parameter name="mobileNumber" value="8122442501"/>
+    <parameter name="postalCode" value="630001"/>
+    <parameter name="billingAddress2" value="N.Pudur"/>
+    <parameter name="billingAddress1" value="11/1 AVPL Street"/>
+    <parameter name="password" value="valliappan"/>
+    <parameter name="departPlace" value="Paris"/>
+    <parameter name="departMonth" value="June"/>
+    <parameter name="arrivalPlace" value="Sydney"/>
+    <parameter name="state" value="Tamilnadu"/>
+    <parameter name="airline" value="Unified Airlines"/>
+    <parameter name="email" value="mani02@gmail.com"/>
+    <parameter name="address" value="11/1 AVPL Street"/>
+    <parameter name="expectedPrice" value="$1753 USD"/>
+    <parameter name="billingState" value="TamilNadu"/>
+    <parameter name="arrivalDate" value="10"/>
+    <parameter name="firstName" value="Valliappan"/>
+    <parameter name="billingPostalCode" value="630001"/>
+    <parameter name="arrivalMonth" value="July"/>
+    <parameter name="departDate" value="20"/>
+    <parameter name="numberOfPassenger" value="3"/>
+    <parameter name="classType" value="First"/>
+    <parameter name="billingCity" value="Karaikudi"/>
+    <classes>
+      <class name="com.testing.Tests.BookFlightTest">
+        <methods>
+          <include name="findFlightPage"/>
+          <include name="setUpDriver"/>
+          <include name="quitBrowser"/>
+          <include name="flightDetailsPage"/>
+          <include name="registrationConfirmationPage"/>
+          <include name="registrationPage" invocation-numbers="0"/>
+          <include name="flightConfirmationPage"/>
+        </methods>
+      </class> <!-- com.testing.Tests.BookFlightTest -->
+    </classes>
+  </test> <!-- Book-Flight-4(failed) -->
+  <test thread-count="5" parallel="tests" name="Book-Flight-3(failed)">
+    <parameter name="lastName" value="Ramanathan"/>
+    <parameter name="country" value="BRAZIL"/>
+    <parameter name="city" value="Karaikudi"/>
+    <parameter name="mobileNumber" value="8122442501"/>
+    <parameter name="postalCode" value="630001"/>
+    <parameter name="billingAddress2" value="N.Pudur"/>
+    <parameter name="billingAddress1" value="11/1 AVPL Street"/>
+    <parameter name="password" value="valliappan"/>
+    <parameter name="departPlace" value="London"/>
+    <parameter name="departMonth" value="June"/>
+    <parameter name="arrivalPlace" value="Paris"/>
+    <parameter name="state" value="Tamilnadu"/>
+    <parameter name="airline" value="Unified Airlines"/>
+    <parameter name="email" value="mani02@gmail.com"/>
+    <parameter name="address" value="11/1 AVPL Street"/>
+    <parameter name="expectedPrice" value="$1753 USD"/>
+    <parameter name="billingState" value="TamilNadu"/>
+    <parameter name="arrivalDate" value="10"/>
+    <parameter name="firstName" value="Valliappan"/>
+    <parameter name="billingPostalCode" value="630001"/>
+    <parameter name="arrivalMonth" value="July"/>
+    <parameter name="departDate" value="20"/>
+    <parameter name="numberOfPassenger" value="3"/>
+    <parameter name="classType" value="Economy"/>
+    <parameter name="billingCity" value="Karaikudi"/>
+    <classes>
+      <class name="com.testing.Tests.BookFlightTest">
+        <methods>
+          <include name="findFlightPage"/>
+          <include name="setUpDriver"/>
+          <include name="quitBrowser"/>
+          <include name="flightDetailsPage"/>
+          <include name="registrationConfirmationPage"/>
+          <include name="registrationPage" invocation-numbers="0"/>
+          <include name="flightConfirmationPage"/>
+        </methods>
+      </class> <!-- com.testing.Tests.BookFlightTest -->
+    </classes>
+  </test> <!-- Book-Flight-3(failed) -->
+  <test thread-count="5" parallel="tests" name="Book-Flight-2(failed)">
+    <parameter name="lastName" value="Ramanathan"/>
+    <parameter name="country" value="BRAZIL"/>
+    <parameter name="city" value="Karaikudi"/>
+    <parameter name="mobileNumber" value="8122442501"/>
+    <parameter name="postalCode" value="630001"/>
+    <parameter name="billingAddress2" value="N.Pudur"/>
+    <parameter name="billingAddress1" value="11/1 AVPL Street"/>
+    <parameter name="password" value="valliappan"/>
+    <parameter name="departPlace" value="London"/>
+    <parameter name="departMonth" value="May"/>
+    <parameter name="arrivalPlace" value="Sydney"/>
+    <parameter name="state" value="Tamilnadu"/>
+    <parameter name="airline" value="Unified Airlines"/>
+    <parameter name="email" value="mani02@gmail.com"/>
+    <parameter name="address" value="11/1 AVPL Street"/>
+    <parameter name="expectedPrice" value="$1169 USD"/>
+    <parameter name="billingState" value="TamilNadu"/>
+    <parameter name="arrivalDate" value="10"/>
+    <parameter name="firstName" value="Valliappan"/>
+    <parameter name="billingPostalCode" value="630001"/>
+    <parameter name="arrivalMonth" value="June"/>
+    <parameter name="departDate" value="20"/>
+    <parameter name="numberOfPassenger" value="2"/>
+    <parameter name="classType" value="Business"/>
+    <parameter name="billingCity" value="Karaikudi"/>
+    <classes>
+      <class name="com.testing.Tests.BookFlightTest">
+        <methods>
+          <include name="findFlightPage"/>
+          <include name="setUpDriver"/>
+          <include name="quitBrowser"/>
+          <include name="flightDetailsPage"/>
+          <include name="registrationConfirmationPage"/>
+          <include name="registrationPage" invocation-numbers="0"/>
+          <include name="flightConfirmationPage"/>
+        </methods>
+      </class> <!-- com.testing.Tests.BookFlightTest -->
+    </classes>
+  </test> <!-- Book-Flight-2(failed) -->
+</suite> <!-- Failed suite [FlightModule] -->

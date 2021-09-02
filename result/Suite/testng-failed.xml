@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Search-QA(failed)" parallel="tests">
+    <parameter name="keyword" value="qa"/>
+    <classes>
+      <class name="com.SearchModule.Tests.SearchTest">
+        <methods>
+          <include name="searchKeyword"/>
+          <include name="setUpDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.SearchModule.Tests.SearchTest -->
+    </classes>
+  </test> <!-- Search-QA(failed) -->
+  <test thread-count="5" name="Search-Python(failed)" parallel="tests">
+    <parameter name="keyword" value="Python"/>
+    <classes>
+      <class name="com.SearchModule.Tests.SearchTest">
+        <methods>
+          <include name="searchKeyword"/>
+          <include name="setUpDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.SearchModule.Tests.SearchTest -->
+    </classes>
+  </test> <!-- Search-Python(failed) -->
+  <test thread-count="5" name="Search-TestNG(failed)" parallel="tests">
+    <parameter name="keyword" value="TestNG"/>
+    <classes>
+      <class name="com.SearchModule.Tests.SearchTest">
+        <methods>
+          <include name="searchKeyword"/>
+          <include name="setUpDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.SearchModule.Tests.SearchTest -->
+    </classes>
+  </test> <!-- Search-TestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Search-TestNG(failed)" parallel="tests">
+    <parameter name="keyword" value="TestNG"/>
+    <classes>
+      <class name="com.SearchModule.Tests.SearchTest">
+        <methods>
+          <include name="searchKeyword" invocation-numbers="0"/>
+          <include name="setUpDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.SearchModule.Tests.SearchTest -->
+    </classes>
+  </test> <!-- Search-TestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->
