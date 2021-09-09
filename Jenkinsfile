@@ -20,7 +20,7 @@ pipeline {
                     //sh
 			        sh "sudo docker login --username=valliappan25 --password=Valliappan@1996"
 			        sh "sudo docker push valliappan25/selenium-docker:latest"
-			    }                           
+			                               
             }
         }
     }
